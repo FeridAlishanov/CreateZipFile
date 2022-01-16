@@ -4,10 +4,10 @@ import java.util.zip.*;
 public class CreateZipFile {
 
     public static void zipfile(String filepath, File file) {
-
+//path daxil edin
         Path path = Paths.get(filepath);
         String Name = file.getName();
-
+        System.out.println("yeni setir");
         String filename = filepath;
         int pos = filename.lastIndexOf(".");
         if (pos > 0) {
